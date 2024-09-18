@@ -168,6 +168,8 @@ header {
     display: none;
   }
 
+
+  /* About section  */
   
 .About-section .container{
     margin-top: 10rem;
@@ -377,6 +379,16 @@ font-weight: 500;
     text-align: center;
     margin-top: 8rem;
 }
+.schedule-header h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #232d39;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.schedule-header h2 span {
+    color: #ed563b;
+}
 .schedule-header .schedule-days{
     display: flex;
     color: white;
@@ -431,6 +443,8 @@ td {
     vertical-align: inherit;
     unicode-bidi: isolate;
 }
+
+/* expert section  */
 .expert-section {
     display: flex;
     margin-top: 5rem;
@@ -442,6 +456,16 @@ td {
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+.trainers-header h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #232d39;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.trainers-header h2 span {
+    color: #ed563b;
 }
 .trainer-list{
     display: grid;
